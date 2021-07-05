@@ -1,0 +1,9 @@
+
+<div>
+    <input #name type="text" placeholder="Input Name..." >
+    <input #model type="text" placeholder="Input text..." >
+    {{name.value}}
+    {{model.value}}
+</div>
+
+<button class="btn" (click)="addProduct(name.value, model.value)">Add product</button>
